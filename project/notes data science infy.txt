@@ -1,0 +1,43 @@
+toggle is for data collection
+
+
+visualising python -matplotlib-plotly-seaborn-ggplot
+paid version           open source
+
+installation in anaconda
+conda install matplotlib
+other
+pip install matplotlib
+
+numpy is used for numerical configuration
+
+
+import numpy as np
+x = np.arrange(0,11)
+y=x*2
+
+output:0,1,....10
+x
+
+
+plt.plot(x,y,'r')
+plt.show()
+for the graph
+r is for red
+
+near function shift+tab we can know what type of modifivation we can do
+
+
+plt.subplot(1,2,1)no of rows,columns,plotno
+plt.plot(x,y,'c--')
+
+object oriented in matplotlib
+fig=plt.figure()  empty canvas
+axes = fig.add_axes([1,1,1,1])
+left bottom width height
+axes.plot(x,y,'b')
+
+
+
+
+
